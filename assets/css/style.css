@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: ws_semi_light;
+  src: url(https://sandaramet.github.io/students/assets/css/weblysleekuisl.ttf);
+  font-weight: 400;
+  font-style: normal;
+}
+* {
+  font-family: ws_semi_light;
+}
+
+body {
+  padding: 0px;
+  margin: 0px;
+}
+ul {
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding: 0px;
+  grid-gap: 5px;
+}
+li {
+  cursor: pointer;
+}
+p {
+  cursor: pointer;
+}
+button {
+  height: min-content;
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  width: 160px;
+  /* border: 0px; */
+  border-radius: 2px;
+  background-color: #f1bf3c;
+  color: white;
+  border: 0px;
+  padding: 12px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #e6b029;
+}
+#map {
+  margin: 0px;
+  height: 100vh;
+  width: calc(100vw - 160px);
+  display: inline-block;
+}
+#root {
+  display: flex;
+  justify-content: space-between;
+}
+.calendar {
+  width: 160px;
+  text-align: center;
+  justify-content: center;
+  justify-items: center;
+  height: calc(100vh - 43px);
+  overflow: auto;
+}
+.calendar > div {
+  display: grid;
+}
+.active-mon,
+.active-date,.active {
+  color: #f1bf3c !important;
+}
+
+.leaflet-popup-content {
+  margin: 20px;
+  display: grid;
+}
+.leaflet-popup-content p {
+  margin: 0px;
+  font-size: 15px;
+}
+.leaflet-container a.leaflet-popup-close-button {
+  position: absolute;
+  top: 2px;
+  right: 6px;
+}
+.year{
+  border-bottom: 2px solid #f1bf3c;
+  color: #f1bf3c;
+
+}
+.year>p{
+  margin: 6px;
+  font-weight: bold;
+  cursor: default;
+
+}
