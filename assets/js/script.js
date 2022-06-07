@@ -568,6 +568,7 @@ function addYears() {
         <p>2021</p>
       <div>
     `)
+    )
     .after(
       $(`
       <div class="year">
