@@ -1,13 +1,13 @@
 .marker-cluster-small {
-	background-color: rgb(255 246 81 / 70%);
+	background-color: rgb(123 199 54 / 70%);
 	}
 
 .marker-cluster-medium {
-	background-color: rgb(253 111 51 / 70%);
+	background-color: rgb(255 246 81 / 70%);
 	}
 
 .marker-cluster-large {
-	background-color: rgb(125 37 0 / 70%);
+	background-color: rgb(253 111 51 / 70%);
 	}
 
 	/* IE 6-8 fallback colors */
